@@ -134,6 +134,11 @@ img {
   overflow: hidden;
 }
 
+nav img {
+  width: 25%;
+  overflow: hidden;
+}
+
 /* 
 ---------------------------------------------
 global styles
@@ -870,7 +875,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/baner-dec-left.png);
+  background-image: url(../images/baner-dec-left.pg);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -881,7 +886,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-right-image.png);
+  background-image: url(../images/bgimages.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
